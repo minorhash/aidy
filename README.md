@@ -2,7 +2,7 @@
 paidy payload array
 
 # use node-rest-client to get json
-# 
+```json 
 { id: 'pay_WvLwQE4AAFQA1234',
   created_at: '2018-05-09T12:57:36.342Z',
   expires_at: '2018-06-08T12:57:38.075Z',
@@ -35,7 +35,7 @@ paidy payload array
   metadata: {} }
 
 # data.order.items
-
+```json
 [ { id: 'PDI001',
     title: 'Paidyスニーカー',
     description: ' ',
