@@ -14,7 +14,7 @@ paidy payload array
   status: 'authorized',
   tier: 'classic',
   buyer: 
-   { name1: '$B$9$:$-!!<!O:(B',
+   { name1: 'すずき　次郎',
      name2: null,
      email: 'successful.payment@paidy.com',
      phone: '818000000001' },
@@ -25,10 +25,10 @@ paidy payload array
      items: [ [Object] ],
      updated_at: null },
   shipping_address: 
-   { line1: 'AXIS$B%S%k(B 10F',
-     line2: '$BO;K\LZ(B4-22-1',
-     city: '$B9A6h(B',
-     state: '$BEl5~ET(B',
+   { line1: 'AXISビル 10F',
+     line2: '六本木4-22-1',
+     city: '港区',
+     state: '東京都',
      zip: '106-2004' },
   captures: [],
   refunds: [],
@@ -37,7 +37,7 @@ paidy payload array
 # data.order.items
 
 [ { id: 'PDI001',
-    title: 'Paidy$B%9%K!<%+!<(B',
+    title: 'Paidyスニーカー',
     description: ' ',
     unit_price: 100,
     quantity: 1 } ]
